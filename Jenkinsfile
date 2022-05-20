@@ -26,6 +26,7 @@ pipeline{
     steps{
       sh '''
       touch 1
+      ifconfig -a
       ls -lrt
       echo "Do do"
       '''
