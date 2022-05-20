@@ -3,18 +3,18 @@ pipeline{
   stages{
     stage('Build'){
       steps{
-        echo 'Do something :D'
+        echo "Do something :D"
             }
         }
     stage('Test'){
-        steps: {
-            echo 'Do something too :P'
+        steps {
+            echo "Do something too :P"
             }
         }
   
   stage('deploy'){
     steps{
-      echo 'Do do'
+      echo "Do do"
             }
         }
     }
