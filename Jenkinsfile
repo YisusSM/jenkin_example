@@ -7,7 +7,7 @@ pipeline{
         ls
         pwd
         echo "Do something :D"
-        echo "WEBHOOK"
+        echo "Esto fue tomado desde el branch 2"
         '''
         
             }
