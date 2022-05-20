@@ -7,7 +7,7 @@ pipeline{
         ls
         pwd
         echo "Do something :D"
-        echo "Fue tomado desde el Main"
+        echo "BRANCH 444444"
         '''
         
             }
